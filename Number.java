@@ -5,11 +5,11 @@ class Number
 {
 
    Scanner in=new Scanner(System in);
-      int a;
+      int n;
       System.out.println("enter the numbers:");
-     if(a>=0)
-      System.out.println("the given number is positive");
-   else(a<0)
-      System.out.println("the given number is negative");
-}
+     if(n>=0)
+      System.out.println(n + "is positive");
+           else
+      System.out.println( n + " is negative");
+           }
 }
