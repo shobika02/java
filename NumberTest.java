@@ -1,19 +1,19 @@
 import java.util.Scanner;
-class NumberTest
+class Number
 {
 public static void main(String[],arg)
 {
-int a,i;
+int a,n;
 Scanner in=new Scanner(System.in);
 a=in.nextInt();
-if(i>10&&i<50)
+if(n>10&&n<50)
 {
-	if(a%2!=0)
+	if(a%2==0)
 
-System.out.println(a+"is odd number");
+System.out.println(a+"is even number");
 else
 
-System.out.println(a+"is not odd number");
+System.out.println(a+"is not even number");
 }
 }
 }
